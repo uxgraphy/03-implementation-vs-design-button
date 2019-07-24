@@ -9,10 +9,10 @@
     <!--Test - Dimension accuracy-->
     <!--Observation - It is inaccurate. By default, it consist margin of 4 to 5 px.-->
 
-    <Button
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"/>
+    <!--<Button-->
+        <!--style="@style/Widget.AppCompat.Button.Colored"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
 
     <!--*****************************-->
 
@@ -24,8 +24,9 @@
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/rounded_shape" />
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_shape"
+        android:layout_margin="40dp"/>
 
     <!--*****************************-->
 
