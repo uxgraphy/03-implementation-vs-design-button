@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:orientation="vertical">
+
+    <!--Property - Size-->
+    <!--Test - Dimension accuracy-->
+    <!--Observation - It is inaccurate. By default, it consist margin of 4 to 5 px.-->
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <!--*****************************-->
+
+    <!--
+    Property - Radius
+    Test - Flexibilities
+    Observation - It is flexible. Top-bottom-left-right can have different roundedness. To apply rounded corner, drawable need to be used. On using drawable, it losses default material properties like ripple effect, margin etc-->
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_shape" />
+
+    <!--*****************************-->
+
+    <!--<View-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/surface"-->
+        <!--android:elevation="1dp"/>-->
+
+    <!--<View-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/surface"-->
+        <!--android:elevation="4dp"/>-->
+
+</LinearLayout>
+
